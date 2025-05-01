@@ -55,7 +55,7 @@ go test -bench=. ./...
 
 
 # 🤝 Contribution
-###Contributions are welcome! Please:
+### Contributions are welcome! Please:
 
 - Fork the repo
 - Create a new branch: git checkout -b feature/problem-name
