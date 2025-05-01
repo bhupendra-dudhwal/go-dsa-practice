@@ -5,8 +5,26 @@ Practice and master data structures and algorithms through Go programming. Each 
 
 ## 📂 Repository Structure
 
-go-dsa-practice/ ├── problems/ # Problem categories │ ├── arrays/ │ ├── strings/ │ ├── trees/ │ └── ... ├── utils/ # Shared utilities ├── benchmarks/ # Optional central benchmarks ├── go.mod └── README.md
-
+go-dsa-practice/
+├── README.md
+├── go.mod
+├── problems/
+│   ├── arrays/
+│   │   ├── two_sum.go
+│   │   ├── two_sum_test.go
+│   ├── strings/
+│   │   ├── is_palindrome.go
+│   │   ├── is_palindrome_test.go
+│   ├── linkedlist/
+│   └── trees/
+│
+├── utils/
+│   └── helpers.go  # Common utilities
+│
+├── benchmarks/
+│   └── benchmark_suite_test.go
+│
+└── .gitignore
 
 ---
 
@@ -18,10 +36,12 @@ go-dsa-practice/ ├── problems/ # Problem categories │ ├── arrays/ 
 ### 🧪 Run All Tests
 ```bash
 go test ./...
-
+```
 
 ### 📏 Run Benchmarks
+```bash
 go test -bench=. ./...
+```
 
 ### 🗂 Problem Categories
 | Category    | Problems Included                             |
