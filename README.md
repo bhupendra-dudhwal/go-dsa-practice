@@ -14,6 +14,9 @@ go-dsa-practice/
 │   │   ├── two_sum_test.go
 │   │   ├── maximum_average_subarray.go
 │   │   ├── maximum_average_subarray_test.go
+│   ├── numbers/
+│   │   ├── palindrome.go
+│   │   ├── palindrome_test.go
 │   ├── strings/
 │   │   ├── is_palindrome.go
 │   │   ├── is_palindrome_test.go
