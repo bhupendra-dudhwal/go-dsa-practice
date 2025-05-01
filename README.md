@@ -4,7 +4,7 @@ Practice and master data structures and algorithms through Go programming. Each 
 ---
 
 ## 📂 Repository Structure
-
+```
 go-dsa-practice/
 ├── README.md
 ├── go.mod
@@ -25,7 +25,7 @@ go-dsa-practice/
 │   └── benchmark_suite_test.go
 │
 └── .gitignore
-
+```
 ---
 
 ## 🚀 Getting Started
@@ -47,11 +47,11 @@ go test -bench=. ./...
 | Category    | Problems Included                             |
 |-------------|-----------------------------------------------|
 | Arrays      | Two Sum, Max Subarray, Merge Sorted Arrays    |
-# | Strings     | Palindrome Check, Anagram, Longest Substring  |
+<!--# | Strings     | Palindrome Check, Anagram, Longest Substring  |
 # | Linked List | Reverse List, Detect Cycle, Merge Lists       |
 # | Trees       | BFS, DFS, Max Depth, Invert Binary Tree       |
 # | Sorting     | Bubble Sort, Merge Sort, Quick Sort           |
-# | Graphs      | BFS, DFS, Cycle Detection, Dijkstra           |
+# | Graphs      | BFS, DFS, Cycle Detection, Dijkstra           | -->
 
 
 # 🤝 Contribution
