@@ -12,6 +12,8 @@ go-dsa-practice/
 │   ├── arrays/
 │   │   ├── two_sum.go
 │   │   ├── two_sum_test.go
+│   │   ├── maximum_average_subarray.go
+│   │   ├── maximum_average_subarray_test.go
 │   ├── strings/
 │   │   ├── is_palindrome.go
 │   │   ├── is_palindrome_test.go
@@ -46,7 +48,7 @@ go test -bench=. ./...
 ### 🗂 Problem Categories
 | Category    | Problems Included                             |
 |-------------|-----------------------------------------------|
-| Arrays      | Two Sum, Max Subarray, Merge Sorted Arrays    |
+| Arrays      | Two Sum, Max Avg Subarray, Merge Sorted Arrays    |
 <!--# | Strings     | Palindrome Check, Anagram, Longest Substring  |
 # | Linked List | Reverse List, Detect Cycle, Merge Lists       |
 # | Trees       | BFS, DFS, Max Depth, Invert Binary Tree       |
