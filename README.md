@@ -1,9 +1,5 @@
-# go-dsa-practice
-Practice and master data structures and algorithms through Go programming.
-
-# 🧠 Go DSA Practice
-
-A curated collection of Data Structures and Algorithms problems solved in **Go (Golang)**. Each problem includes clear, idiomatic Go solutions with tests and benchmarks.
+# 🧠 go-dsa-practice
+Practice and master data structures and algorithms through Go programming. Each problem includes clear, idiomatic Go solutions with tests and benchmarks.
 
 ---
 
