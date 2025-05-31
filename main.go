@@ -7,5 +7,8 @@ import (
 )
 
 func main() {
-	fmt.Println(str.IsPalindrome("abccbaZabccba"))
+	// fmt.Println(str.IsPalindrome("abccbaZabccba"))
+
+	brackets := "))"
+	fmt.Printf("\n brackets '%s' - %t\n", brackets, str.NewBalancedParentheses().IsBalanced(brackets))
 }
